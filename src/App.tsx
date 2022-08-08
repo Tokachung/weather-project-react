@@ -26,7 +26,12 @@ function App() {
             setLocation(event.target.value);
           }}
         />
-        <Button variant="contained" onClick={getWeatherUpdate}>
+        <Button
+          variant="contained"
+          color="primary"
+          size="large"
+          onClick={getWeatherUpdate}
+        >
           Click Me
         </Button>
       </div>
